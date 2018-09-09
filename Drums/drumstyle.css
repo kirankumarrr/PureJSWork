@@ -1,0 +1,33 @@
+body{
+	
+}
+.DrumsContainer {
+    width: 90%;
+    margin: 10% auto;
+    text-align: center;
+}
+.Drumskey {
+    width: 5%;
+    border: 1px solid #fff;
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+    transition:all 0.3s;
+    box-shadow: 0 0 10px #000;
+}
+.key {
+    margin: 0;
+    color: #000;
+    text-shadow: 0 0 5px #000;
+}
+.audiotype {
+    margin: 0;
+    color: green;
+    font-weight: bold;
+}
+
+.playing{
+    transform: scale(1.1);
+    border:1px solid black;
+    box-shadow: 0 0 10px black ;
+}
